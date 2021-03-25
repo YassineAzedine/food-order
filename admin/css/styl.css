@@ -1,0 +1,133 @@
+
+
+
+
+*{
+    margin :0;
+    padding :0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrapper{
+    /* border:1px solid rgb(255, 16, 16) ; */
+    padding :1%;
+    width: 90%;
+    margin: 0 auto;
+   
+    
+
+
+}
+.menu{
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 17, 17);
+}
+.text-center{
+    text-align:center ;
+}
+.footer{
+    background-color: rgb(201, 65, 65);
+    color: cornsilk;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: crimson;
+}
+.menu ul li a:hover {
+    color: rgb(139, 8, 34);
+}
+.main-content{
+   
+  padding: 1% 0;
+    background-color: rgb(255, 183, 183);
+    
+}
+.col-4{
+    width: 60%;
+    background-color: rgb(241, 241, 241);
+    margin:1%;
+    padding:2% ;
+    /* float: left; */
+}
+.clearfix{
+    float: none;
+    clear: both;
+
+}
+.tbl-full{
+    width: 900px;
+    border: 1px solid black;
+} 
+table tr th{
+    border-bottom: 1px solid black;
+    padding :4%;
+    text-align: left;
+    
+
+}
+table tr td{
+    padding :2%;
+    border: 1px solid black
+}
+.btn-primary{
+   background-color: rgb(231, 231, 255);
+   padding: 1%;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+.btn-primary:hover{
+     background-color: blue;
+}
+.btn-secondery{
+   border: 1px solid black;
+    background-color: rgb(151, 224, 129);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .btn-secondery:hover{
+     background-color: blue;
+ }
+ .btn-danger{
+    border: 1px solid black;
+    background-color: rgb(230, 65, 65);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .btn-danger:hover{
+     background-color: blue;
+ }
+ .tbl-30{
+     width: 400px;
+ }
+ 
+/* CSS for Footer */
+.footer{
+    background-color: #f17171;
+    color: white;
+}
+.logn{
+    border: 1px solid rgb(117, 24, 24);
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color: rgb(227, 255, 255);
+    
+}
+
+/* CSS for Login */
+
+
+
